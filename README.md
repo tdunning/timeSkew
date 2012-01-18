@@ -1,11 +1,11 @@
 To run this program do this:
 
-   mvn package
-   java -cp target/timeSkew-1.0-jar-with-dependencies.jar com.mapr.time.AdjustmentDetector
+    mvn package
+    java -cp target/timeSkew-1.0-jar-with-dependencies.jar com.mapr.time.AdjustmentDetector
 
 Then in another window do things like this:
 
-   sudo date -s now-10seconds
+    sudo date -s now-10seconds
 
 You should see output like this in the original window:
 
